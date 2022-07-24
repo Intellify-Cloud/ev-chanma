@@ -19,7 +19,7 @@ background: grey
     </div>
 
     <div class="col-md">
-		<p>275 Peter Makoba Road</p>
+		<p>275 Peter Mokaba Road</p>
 		<p>Morningside</p>
 		<p>Durban</p>
 		<p>4001</p>
