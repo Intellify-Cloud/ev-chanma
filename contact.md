@@ -19,10 +19,10 @@ background: grey
     </div>
 
     <div class="col-md">
-		<p>Road Name</p>
-		<p>Suburb</p>
-		<p>City</p>
-		<p>0000</p>
+		<p>275 Peter Makoba Road</p>
+		<p>Morningside</p>
+		<p>Durban</p>
+		<p>4001</p>
     </div>
     
   </div>
