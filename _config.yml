@@ -1,12 +1,12 @@
 baseurl: ""
 
-title      : evo Umhlanga - Bond Origination & Home Loans Expert in Umhlanga, Durban, Kwazulu-Natal
-email      : tash.pillay@evogroup.co.za
-description: Contact Kimeshni or Tash Pillay from evo Umhlanga to help you with your home loan. We are seasoned property professionals and specialize in mortgages and property finance with years of experience. Our experience ranges from sales to finance and out focus is bonds, homeloans and origination. evo Umhlanga is committed to excellent client service, building long-term relationships.
+title      : evo Chanelle Macey - Expert in Bond Origination & Home Loans 
+email      : chanelle.macey@evogroup.co.za
+description: Contact Chanelle Macey from evo Chanelle Macey to help you with your home loan. I am an experienced property professional specializing in home loans and property finance. I am passionate about the property industry focusing on bonds, home loans, and origination. I am committed to excellence and building long-term relationships.
 author     : Eben Roux / Pieter Oosthuizen
 
 analytics:
-  google: G-4L8DLCY3DX
+  google: G-xxx
 
 collections:
   portfolio:
@@ -20,14 +20,14 @@ webserver_headers:
     - GET, OPTIONS, HEAD
 
 logo:
-  path: /assets/evo umhlanga logo.png
+  path: /assets/evo chanelle macey logo.png
 
 exclude: [node_modules,webpack-config.js,package.json,package-lock.json]
 
 group: evo Homeloans
 
-company: evo Umhlanga 
+company: evo Chanelle Macey 
 
-url: https://evohomeloans.co.za/bond-originators/umhlanga-rocks/
+url: https://evohomeloans.co.za/bond-originator/uncategorized/chanelle-macey-evo-home-loans/
 
-address: G5 Corner of Zenith & Equinox Drive, Umhlanga Rocks, 4320
+address: Equinox Drive, Umhlanga Rocks, 4320
