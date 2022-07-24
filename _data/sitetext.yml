@@ -99,14 +99,14 @@ portfolio:
     
 about:
     title: "About Us"
-    text2: "Property runs in my family's veins, with a father who is a property developer and a mom who has been an estate agent for more than 30 years. I have exposure to the industry from many perspectives and fully understand the ups & downs of approved and declined bonds.
+    text2: "Property runs in my family's veins, with a father who is a property developer and a mom who has been an estate agent for more than 30 years, I have had  exposure to the industry from many perspectives and fully understand the ups & downs of approved and declined bonds.
     <br><br>
     My passion for my work shows in my day-to-day interactions and all of my transactions. 
     <br><br>
     I understand the importance of each sale for my buyers and real estate partners.
     <br><br>
     I am committed to obtaining the best bond offer no matter the challenge, so feel free to contact me if you need a pre-qualification or a home loan.
-    <br>
+    <br><br>
     I look forward to helping you!"
     
 clients:
@@ -162,17 +162,27 @@ testimonials:
     text: "What Others Say About Me"
     section: testimonials
     people:
-      - name: "Gareth ☆☆☆☆☆"
+      - name: "Leandre Van Rooyen"
+        testimony: "Working with Chanelle has been an absolute pleasure!"
+
+      - name: "Gareth"
         testimony: "Chanelle is a Rockstar! Amazing service and delivery. I will definitely be referring her to friends looking to secure bonds."
 
-      - name: "Grace C. ☆☆☆☆☆"
+      - name: "Grace C."
         testimony: "Thank you so so much, couldn’t have done it without you. You went far and beyond, against all odds and still succeeded ❤️ It’s not an understatement that you’re great at what you do!"
+
+      - name: "Christopher Perumall"
+        testimony: "Hi Chanelle..thank you for being there for us. Thank you for going the extra mile for us and going out of your way to make things happen. Thank you for being patient with us and making the bond possible. Thank you for putting such an extra effort in to accomplish our bond. We really appreciate you. Thank you kindly."
 
       - name: "Leendert & Rachelle Roos"
         testimony: "Hi Chanelle, first of all, I want to thank you for always being friendly and helpful....... Clearly with each phone call the smile was there and I believe that is what kept us positive during our whole deal. You are a go-getter and nothing will stand in your way to help your clients. We truly admire your good service, warm personality, and great efforts with every step to finalize our bond finance. Keep up the stunning work!"
 
       - name: "Dr. Frank ☆☆☆☆☆"
-        testimony: "I would love to thank you for your dedication and hard work. What seemed like an impossible venture and receiving rejection after rejection from previous consultants, phone call after phone call, you were able to make it happen and I can finally say I have my dream property! Thank you very much! I will definitely recommend you to all the people who ever need your services. Very professional and honest. I thank you. Definitely a 5 star rating from me"  
+        testimony: "I would love to thank you for your dedication and hard work. What seemed like an impossible venture and receiving rejection after rejection from previous consultants, phone call after phone call, you were able to make it happen and I can finally say I have my dream property! Thank you very much! I will definitely recommend you to all the people who ever need your services. Very professional and honest. I thank you."  
+      
+
+
+
 
 contact:
     title: "Contact Us"
@@ -182,12 +192,12 @@ contact:
 footer:
     legal: "Powered by the evo Homeloans"
     social:
-      # - url: https://twitter.com
-      #   icon: "fab fa-twitter"  
+      - url: https://twitter.com/chanelle_macey
+        icon: "fab fa-twitter"  
       - url: https://www.facebook.com/chanellehomeloan
         icon: "fab fa-facebook-f"
-      # - url: https://linkedin.com
-      #   icon: "fab fa-linkedin-in"
+      - url: https://za.linkedin.com/in/chanelle-macey-homeloans
+        icon: "fab fa-linkedin-in"
       # - url: https://github.com/raviriley/agency-jekyll-theme
       #   icon: "fab fa-github"
       # - url: https://instagram.com
