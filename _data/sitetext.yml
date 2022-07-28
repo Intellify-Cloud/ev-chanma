@@ -157,6 +157,37 @@ team:
           - url: https://za.linkedin.com/in/chanelle-macey-homeloans
             icon: fab fa-linkedin-in
 
+      - name: "Busi Connies"
+        role: "Bond Administrator"
+        image: assets/img/team/Busi Connies evo Homeloans.jpg
+        social:
+          - url: tel:076 800 4625
+            icon: fas fa-phone
+          - url: mailto:Busisiweconnies09@gmail.com?subject=evo Chanelle Macey Website Enquiry
+            icon: fas fa-envelope
+          # - url: https://www.facebook.com/chanellehomeloan
+          #   icon: fab fa-facebook-f
+          # - url: https://za.linkedin.com/in/chanelle-macey-homeloans
+          #   icon: fab fa-linkedin-in
+
+      - name: "Bianca Coetzer"
+        role: "Bond Administrator"
+        image: assets/img/team/Bianca Coetzer evo Homeloans.jpg
+        social:
+          - url: tel:076 867 5401
+            icon: fas fa-phone
+          - url: mailto:bianca.coetzer@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
+            icon: fas fa-envelope
+
+      - name: "Jacque Calitz"
+        role: "Bond Administrator"
+        image: assets/img/team/Jacque Calitz evo Homeloans.jpg
+        social:
+          - url: tel:071 883 3644
+            icon: fas fa-phone
+          # - url: mailto:bianca.coetzer@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
+          #   icon: fas fa-envelope
+          
 testimonials:
     title: "TESTIMONIALS"
     text: "What Others Say About Me"
@@ -198,8 +229,8 @@ footer:
         icon: "fab fa-facebook-f"
       - url: https://za.linkedin.com/in/chanelle-macey-homeloans
         icon: "fab fa-linkedin-in"
-      # - url: https://github.com/raviriley/agency-jekyll-theme
-      #   icon: "fab fa-github"
+      - url: https://api.whatsapp.com/send?phone=27795620507
+        icon: "fab fa-whatsapp"
       # - url: https://instagram.com
       #   icon: "fab fa-instagram"
 
