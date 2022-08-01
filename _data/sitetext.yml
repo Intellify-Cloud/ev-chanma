@@ -12,15 +12,15 @@ services:
         icon: fas fa-home
         link: 
           url: mailto:chanelle.macey@evogroup.co.za ?subject=Mail from evo Chanelle Macey website
-          text: "Email Me"
+          text: "Email Us"
       - title: "Pre-qualification"
-        desc: "I help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
+        desc: "We help you check your credit record, income and expenses to give you an accurate assessment of what you can afford. You will then know how likely you are to qualify for a bond."
         icon: fas fa-tasks       
         link:
           url: tel:+27795620507
           text: "Call: 079 562 0507"
       - title: "Still Looking for a Home"
-        desc: "I am searching property portals and visiting show houses but have a few questions."
+        desc: "I'm searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
           url: mailto:chanelle.macey@evogroup.co.za ?subject=Mail from evo Chanelle Macey website
@@ -80,15 +80,15 @@ textblock:
     footer: "Our service is completely FREE, with no obligation."
     section: textblock
     list:
-      - title: "I help you complete one application, which I submit to all the banks."
+      - title: "We help you complete one application, which we submit to all the banks."
         image: "fa-university"
-      - title: "I apply to the banks, including your own bank, to get quotes."
+      - title: "We submit to all the banks, including your own bank, to get quotes."
         image: "fa-file-invoice-dollar"
       - title: "You can compare the quotes from each bank."
         image: "fa-balance-scale"
-      - title: "I negotiate the best interest rates and deal on your behalf."
+      - title: "We negotiate the best interest rates and deal on your behalf."
         image: "fa-comments-dollar"
-      - title: "I can help you in securing a zero deposit bond if required."
+      - title: "We can help you in securing a zero deposit bond if required."
         image: "fa-user-shield"
 
 portfolio:
@@ -101,13 +101,13 @@ about:
     title: "About Us"
     text2: "Property runs in my family's veins, with a father who is a property developer and a mom who has been an estate agent for more than 30 years, I have had  exposure to the industry from many perspectives and fully understand the ups & downs of approved and declined bonds.
     <br><br>
-    My passion for my work shows in my day-to-day interactions and all of my transactions. 
+    Our passion for my work shows in my day-to-day interactions and all of our transactions. 
     <br><br>
-    I understand the importance of each sale for my buyers and real estate partners.
+    We understand the importance of each sale for my buyers and real estate partners.
     <br><br>
-    I am committed to obtaining the best bond offer no matter the challenge, so feel free to contact me if you need a pre-qualification or a home loan.
+    We am committed to obtaining the best bond offer no matter the challenge, so feel free to contact us if you need a pre-qualification or a home loan.
     <br><br>
-    I look forward to helping you!"
+    We look forward to helping you!"
     
 clients:
     title: Bank Partners
