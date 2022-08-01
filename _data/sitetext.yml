@@ -187,7 +187,16 @@ team:
             icon: fas fa-phone
           # - url: mailto:bianca.coetzer@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
           #   icon: fas fa-envelope
-          
+
+      - name: "Tania Arts"
+        role: "Bond Administrator"
+        image: assets/img/team/Tania Arts evo Homeloans.jpg
+        social:
+          - url: tel:082 927 8291
+            icon: fas fa-phone
+          - url: mailto:tanja.arts@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
+            icon: fas fa-envelope
+    
 testimonials:
     title: "TESTIMONIALS"
     text: "What Others Say About Me"
