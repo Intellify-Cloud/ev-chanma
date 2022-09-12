@@ -56,18 +56,25 @@ img::-moz-selection {
 
 /* Viewports between 320px and 640px wide */
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1 {
     font-weight: 900;
     font-size: 30px;
     @include heading-font;
   }
- 
+  h2,
+  h3 {
+    font-weight: 400;
+    font-size: 20px;
+    @include heading-font;
+  }
+  h4,
+  h5,
+  h6 {
+    font-weight: 900;
+    // font-size: 30px;
+    @include heading-font;
+  }
+
   .page-section {
     padding: 80px 0;
     h2.section-heading {
@@ -135,9 +142,7 @@ img::-moz-selection {
 }
 
 /* Viewports between 768px wide */
-@media (min-width: 768px) and (max-device-width : 1024px) {
-
-
+@media (min-width: 768px) and (max-device-width: 1024px) {
   .page-section {
     padding: 80px 0;
     h2.section-heading {

@@ -46,7 +46,7 @@
         </div>
         {% if site.data.sitetext.textblock-lite.footer %}
         <div class="text-muted text-center w-100">
-          <h6 class="textblock-subheading">{{ site.data.sitetext.textblock-lite.footer | markdownify }}</h6>
+          <p {{ site.data.sitetext.textblock-lite.footer | markdownify }}</p>
         </div>{% endif %}
       </div>
       <div class="col-lg-1 text-center">
