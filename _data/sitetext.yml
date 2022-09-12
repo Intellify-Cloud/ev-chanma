@@ -91,6 +91,17 @@ textblock:
       - title: "We can help you in securing a zero deposit bond if required."
         image: "fa-user-shield"
 
+textblock-lite:
+    title: "GET HOME LOAN QUOTES FROM ALL THE <br> BANKS WITH ONE APPLICATION"
+    text: "GET PRE-APPROVED TODAY"
+    footer: "Our Bond Origination services are at no cost to you."
+    section: textblock-lite
+    list:
+      - title: ""
+        image: ""
+
+
+
 portfolio:
     title: "Other Services"
     text: "Some of our work"
@@ -199,7 +210,7 @@ team:
     
 testimonials:
     title: "TESTIMONIALS"
-    text: "What Others Say About Me"
+    text: "What Others Say About Us"
     section: testimonials
     people:
       - name: "Leandre Van Rooyen"
