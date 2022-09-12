@@ -1,6 +1,6 @@
 nav:
   - title: "Why Us"
-    section: textblock
+    section: textblock-lite
 
   - title: "Services"
     section: services
