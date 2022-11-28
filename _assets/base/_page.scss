@@ -29,6 +29,12 @@ h6 {
   @include heading-font;
 }
 
+@media (min-width: 320px) {
+  section {
+    padding: 100px 0;
+  }
+}
+
 @media (min-width: 768px) {
   section {
     padding: 100px 0;
@@ -61,7 +67,13 @@ img::-moz-selection {
     font-size: 30px;
     @include heading-font;
   }
-  h2,
+
+  h2 {
+    font-weight: 900;
+    font-size: 30px;
+    @include heading-font;
+  }
+
   h3 {
     font-weight: 400;
     font-size: 20px;
@@ -75,94 +87,97 @@ img::-moz-selection {
     @include heading-font;
   }
 
-  .page-section {
-    padding: 80px 0;
-    h2.section-heading {
-      font-size: 25px;
-      margin-top: 0;
-      margin-bottom: 15px;
-      font-family: Comfortaa, cursive;
-      // color: blue;
-    }
-  }
-
-  h3.textblock-subheading {
-    font-size: 1.3rem;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-transform: none;
-    @include serif-font;
-  }
-
-  h3.textblock-subheading {
-    font-size: 1.3rem;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-transform: none;
-    @include serif-font;
-  }
-}
-
-/* Viewports between 640px and 768px wide */
-@media (min-width: 480px) and (max-device-width: 768px) {
-  .page-section {
-    padding: 80px 0;
-    h2.section-heading {
-      font-size: 2.1rem;
-      margin-top: 0;
-      margin-bottom: 15px;
-      font-family: Comfortaa, cursive;
-      // color: rgb(0, 255, 0);
-    }
-  }
-
-  h3.textblock-subheading {
-    font-size: 1.3rem;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-transform: none;
-    @include serif-font;
-  }
-
-  h3.textblock-subheading {
-    font-size: 1.3rem;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-transform: none;
-    @include serif-font;
-  }
-}
-
-/* Viewports between 768px wide */
-@media (min-width: 768px) and (max-device-width: 1024px) {
-  .page-section {
-    padding: 80px 0;
-    h2.section-heading {
-      font-size: 30px;
-      margin-top: 0;
-      margin-bottom: 15px;
+  /* Viewports between 640px and 768px wide */
+  @media (min-width: 480px) and (max-device-width: 768px) {
+    .page-section {
+      padding: 80px 0;
+      h2.section-heading {
+        font-size: 2.1rem;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-family: Comfortaa, cursive;
+        // color: rgb(0, 255, 0);
+      }
     }
 
-    h3.section-subheading {
-      font-size: 16px;
+    h3.textblock-subheading {
+      font-size: 1.3rem;
       font-weight: 400;
       font-style: normal;
-      margin-bottom: 3em;
+      margin-top: 25px;
+      margin-bottom: 25px;
       text-transform: none;
       @include serif-font;
     }
 
     h3.textblock-subheading {
-      font-size: 1.6rem;
-      font-weight: 600;
+      font-size: 1.3rem;
+      font-weight: 400;
+      font-style: normal;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      text-transform: none;
+      @include serif-font;
+    }
+  }
+
+  /* Viewports between 768px to 1024px  */
+  @media (min-width: 768px) and (max-device-width: 1024px) {
+    .page-section {
+      padding: 80px 0;
+      h2.section-heading {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      h3.section-subheading {
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 3em;
+        text-transform: none;
+        @include serif-font;
+      }
+
+      h3.textblock-subheading {
+        font-size: 1.6rem;
+        font-weight: 600;
+        font-style: normal;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-transform: none;
+        @include serif-font;
+      }
+    }
+  }
+
+  /* Viewports between 1024px and up */
+  @media (min-width: 1024px) {
+    .page-section {
+      padding: 80px 0;
+      h2.section-heading {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-family: Comfortaa, cursive;
+        // color: blue;
+      }
+    }
+
+    h3.textblock-subheading {
+      font-size: 1.3rem;
+      font-weight: 400;
+      font-style: normal;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      text-transform: none;
+      @include serif-font;
+    }
+
+    h3.textblock-subheading {
+      font-size: 1.3rem;
+      font-weight: 400;
       font-style: normal;
       margin-top: 25px;
       margin-bottom: 25px;

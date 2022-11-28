@@ -3,8 +3,8 @@
   padding: 30px 0;
   text-align: center;
   span.copyright {
-    font-size: 90%;
-    line-height: 40px;
+    // font-size: 90%;
+    line-height: 50px;
     text-transform: none;
     @include heading-font;
   }
@@ -30,7 +30,7 @@
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   li {
     a {
       font-size: 20px;

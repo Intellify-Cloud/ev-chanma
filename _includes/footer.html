@@ -5,53 +5,55 @@
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; {{ site.company }} {{ 'now' | date: "%Y" }}</span>
         </div>
-		<!-- Social Media -->
+        <!-- Social Media -->
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-		  {% for link in site.data.sitetext.footer.social  %}
+            {% for link in site.data.sitetext.footer.social  %}
             <li class="list-inline-item">
-			  {% if link.url %}
+              {% if link.url %}
               <a href="{{ link.url }}">
                 {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
               </a>
-			  {% endif %}
+              {% endif %}
             </li>
-			{% endfor %}
+            {% endfor %}
           </ul>
-          <small>
-            <a href="/privacy-statement" target="_blank">Privacy Statement  |  </a><a href="/data-sharing-agreement" target="_blank">Data Sharing</a>
-          </small>
+          <a href="/privacy-statement" target="_blank">Privacy Statement | </a><a href="/data-sharing-agreement"
+            target="_blank">Data Sharing</a>
         </div>
 
-		<!-- Legal -->
+        <!-- Legal -->
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="https://evohomeloans.co.za/bond-originator/uncategorized/chanelle-macey-evo-home-loans/" target="_blank">{{ site.data.sitetext.footer.legal | default: "" }}</a>
+              <a href="https://evohomeloans.co.za/bond-originator/uncategorized/chanelle-macey-evo-home-loans/"
+                target="_blank">{{ site.data.sitetext.footer.legal | default: "" }}</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
-{% if page.layout == "page" %}
-<script>
-fixPageShort();
-function fixPageShort() {
-  if(window.innerHeight > document.body.offsetHeight) {
-    document.getElementById("footer").style.position="fixed";
-    document.getElementById("footer").style.bottom=0;
-    document.getElementById("footer").style.right=0;
-    document.getElementById("footer").style.left=0;
-    document.getElementById("footer").style.width="100%";
-  }
-}
-</script>
-{% endif %}
+  {% if page.layout == "page" %}
+  <script>
+    fixPageShort();
 
-<div class="whatsapp">
-  <a href="https://api.whatsapp.com/send?phone=27795620507" target="_blank">    
-  <h4><i class="fab fa-whatsapp fa-2x " aria-hidden="true" ></i></h4>Chat  </a>
-  <!-- <a href="https://api.whatsapp.com/send?phone=15551234567">Send Message</a> -->
-</div>
+    function fixPageShort() {
+      if (window.innerHeight > document.body.offsetHeight) {
+        document.getElementById("footer").style.position = "fixed";
+        document.getElementById("footer").style.bottom = 0;
+        document.getElementById("footer").style.right = 0;
+        document.getElementById("footer").style.left = 0;
+        document.getElementById("footer").style.width = "100%";
+      }
+    }
+  </script>
+  {% endif %}
+
+  <div class="whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=27795620507" target="_blank">
+      <h4><i class="fab fa-whatsapp fa-2x " aria-hidden="true"></i></h4>Chat
+    </a>
+    <!-- <a href="https://api.whatsapp.com/send?phone=15551234567">Send Message</a> -->
+  </div>
   <!-- End Footer -->
