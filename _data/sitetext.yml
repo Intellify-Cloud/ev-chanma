@@ -174,18 +174,6 @@ team:
         social:
           - url: tel:071 883 3644
             icon: fas fa-phone
-          # - url: mailto:bianca.coetzer@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
-          #   icon: fas fa-envelope
-
-      - name: "Sarah Corlett"
-        role: "Property Finance Specialist"
-        image: assets/img/team/Sarah Corlett evo Homeloans.jpg
-        social:
-          - url: tel:073 249 2990
-            icon: fas fa-phone
-          - url: mailto:sarah.corletts@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
-            icon: fas fa-envelope
-
  
 testimonials:
     title: "TESTIMONIALS"
