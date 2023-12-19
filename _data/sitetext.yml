@@ -179,6 +179,17 @@ team:
           - url: https://www.facebook.com/chanellehomeloan
             icon: fab fa-facebook-f
 
+      - name: "Kobie Nel"
+        role: "Property Finance Consultant"
+        image: assets/img/team/Kobie Nel -  evo Homeloans.jpg
+        social:
+          - url: tel:071 276 4847
+            icon: fas fa-phone
+          - url: mailto:kobie.nel@evogroup.co.za?subject=evo Chanelle Macey Website Enquiry
+            icon: fas fa-envelope
+          - url: https://www.facebook.com/chanellehomeloan
+            icon: fab fa-facebook-f
+
       - name: "Zelda Weaver"
         role: "Property Finance Specialist"
         image: assets/img/team/Zelda Weaver evo Homeloans.jpg
