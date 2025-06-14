@@ -37,6 +37,8 @@ $enable-gradients:false;
 @import "layout/footer.scss";
 @import "layout/clients.scss";
 @import "layout/textblock.scss";
+@import "layout/testimonials.scss"; // if your testimonial styles are in _sass/testimonials.scss
+
 
 body {
     overflow-x: hidden;
